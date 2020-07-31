@@ -10,7 +10,7 @@ const LocalStrategy = require("passport-local").Strategy;
 const routes = require("./routes");
 const User = require("./models/User");
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 9001;
 
 const app = express();
 app.use(bodyParser.json());
